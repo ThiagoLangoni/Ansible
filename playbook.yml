@@ -4,7 +4,7 @@
       docker_container:
         name: webdeploy
         state: absent
-    - name: removendo
+    - name: removendo container
       docker_image:
         name: thiagolangoni/jenkinsbuildimagedocker
         state: absent
